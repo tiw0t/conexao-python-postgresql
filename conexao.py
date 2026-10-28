@@ -29,7 +29,6 @@ if __name__ == '__main__':
     print("Tentando estabelecer a conexão...")
     conexao_ativa = criar_conexao_postgres()
     
-    # Verifica se a conexão foi estabelecida antes de aceder aos seus atributos
     if conexao_ativa:
         print(f"Status da conexão: {conexao_ativa.status}")
         print("Conexão ok. Bem-sucedida!")
